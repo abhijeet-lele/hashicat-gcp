@@ -1,4 +1,4 @@
-module "network" {
+module "vpc" {
   source  = "app.terraform.io/abhijeet-gcp-training/network/google"
   version = "3.4.0"
   # insert required variables here
